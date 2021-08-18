@@ -1,0 +1,102 @@
+/* Estilos da página index.html*/
+ *{
+    margin: 0;
+    padding: 0;
+} 
+.center {
+    text-align: center;
+}
+/* header{
+    color:#240046;
+} */
+.padding {
+    padding: 5px;
+}
+ #b1 {
+    background-color:/*#FFE047;*/ #ffce1f;
+    font-family: 'Rubik', sans-serif;
+} 
+
+h1{
+    font-size: 40px;
+}
+.menu{
+    background-color: #240046;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.menu li {
+    display: inline;
+    padding: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.menu li a:hover{
+    color:grey
+}
+
+.introducao{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.containerl{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.containerl h3{
+    color:#011627;
+}
+.containerl2{
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    
+}
+.tm-social{
+    width: 50px;
+    height: 50px;
+    }
+
+/*Estilos da página romance.html*/
+#b2 {
+    background-color:#eec7fc;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
+    
+}
+
+.container1{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.container2{
+ display: flex;
+flex-flow: column wrap ;
+/*justify-content: center;
+align-items: center*/
+padding: 30px;
+font-size: 20px;
+}
+
+
+
