@@ -99,4 +99,16 @@ font-size: 20px;
 }
 
 
+/*Estilos da página contato.html*/
+#b3{
+    color: #5A189A;
+    background-color: #FFE047;
+    font-family: 'Rubik', sans-serif;
+}
+.ml-50 {
+   margin-left: 50px;
+}
+footer{
+    background-color: #C86BFA;
+}
 

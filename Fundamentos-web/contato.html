@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+   <title>Contato</title>
+</head>
+<body id="b3">
+
+   <ul class="menu">
+      <li>
+         <a href="index.html"> Home </a>
+      </li>
+
+      <li>
+         <a href="contato.html"> Contato </a>
+      </li>
+
+       <li>
+        <a href="romance.html"> Romance </a>
+      </li>
+   </ul>
+
+   <h1 class="center container">Deixe sua sugestão!!</h1>
+
+   <div class="container1 mb-50">
+      <div>
+         <form>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome" onkeyup="validaNome()">
+            <div id="txtNome"></div>
+         
+            <br>
+            <label for="email">E-mail:</label> <br>
+            <input type="email" id="email" onkeyup="validaEmail()">
+            <div id="txtEmail"></div>
+            <br>
+            <label for="sugestao">Sugestão:</label> <br>
+            <textarea name="sugestao" id="sugestao" cols="60" rows="5" onkeyup="validaSugestao()"></textarea>
+            <div id="txtSugestao"></div>
+            <br>
+            <br>
+            <button onclick="enviar()">Enviar</button>
+         </form>
+      </div>
+
+   </div>
+
+
+
+   <hr>
+   <footer>
+    <div class="container1">
+         
+        <a href="https://www.instagram.com/ba_amaraal/" target="_blank">
+            <img class="tm-social" src="assets/img/instagram.png" alt="Logo do instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/barbara-amaral-oliveira/"target="_blank">
+        <img class="tm-social"src="assets/img/linkedin.png" alt="Logo do linkedin">
+        </a>
+    </div>
+    <p class="center">
+    Todos os direitos reservados:Babi Amaral &copy;
+    </p>
+    </footer>
+   
+    <script src="assets/js/script.js"> </script>
+</body>
+</html>
